@@ -9,7 +9,10 @@ public class Main {
         double notaDoFilme = 8.1;
         //Média calculada por 3 notas
         double media = (9.8 + 6.3 + 8.0) /3;
-        System.out.println(media );
+       /* String mediaDoPublico = String.format("""
+          Media: %.1f      
+                """, media); */
+        System.out.println(media);
         String sinopse;
         sinopse = """
                 Filme Top Gun
@@ -20,6 +23,9 @@ public class Main {
         System.out.println(sinopse);
 // estou pegando a média da nota que é do tipo double e dividindo 2 que o resultado vai inteiro
         double classificacao = (media / 2);
+        /*String mensagem = String.format("""
+                Classificação: %.1f
+                """, classificacao);*/
         System.out.println(classificacao);
 
     }
